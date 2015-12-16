@@ -12,12 +12,8 @@ dependencies:
     - mkdir -p build/logs
     - composer install --dev --no-interaction
     - php artisan migrate:install
-<<<<<<< HEAD
     - php artisan migrate
-=======
     - php artisan migrate:refresh
-    - php artisan db:seed
->>>>>>> 19d387d... (fix) Added parameters in overide in the file circle.yml
     - sudo apt-get install php5-xdebug
     - sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini
 
