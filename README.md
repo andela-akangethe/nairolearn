@@ -29,19 +29,18 @@ If you are using homestead, here are instructions to make the app available unde
 1. edit your `~/.homestead/Homestead.yaml`:
 - in the section for `sites`, add
 ```
-    - map: nairolearn.app
-      to: /home/homestead/nairolearn
-
+    map: nairolearn.app
+    to: /home/homestead/nairolearn
 ```
 
-- in the section for `databases`, add
+2  in the section for `databases`, add
 ```
-    - nairolearn
+     nairolearn
 ```
 
-2. run `vagrant provision` in your Homestead directory.
+3. run `vagrant provision` in your Homestead directory.
 
-3. edit your `/etc/hosts` and add the following:
+4. edit your `/etc/hosts` and add the following:
 ```
-192.168.10.10    nairolearn.app
+    192.168.10.10    nairolearn.app
 ```
