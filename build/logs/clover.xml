@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1450272897">
+  <project timestamp="1450272897">
+    <package name="App\Events">
+      <file name="/home/vagrant/Projects/nairolearn/app/Events/Event.php">
+        <class name="Event" namespace="App\Events">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="8" ncloc="6" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="app\Http\Controllers">
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Controllers/CategoryController.php">
+        <class name="CategoryController" namespace="app\Http\Controllers">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+        </class>
+        <line num="10" type="method" name="show" crap="2" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="13" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="16" type="stmt" count="0"/>
+        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers">
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Controllers/Controller.php">
+        <class name="Controller" namespace="App\Http\Controllers">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="13" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Controllers/HomeController.php">
+        <class name="HomeController" namespace="App\Http\Controllers">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="13" type="method" name="getHome" crap="1" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="16" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Controllers/UserProfileController.php">
+        <class name="UserProfileController" namespace="App\Http\Controllers">
+          <metrics methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="14" coveredelements="12"/>
+        </class>
+        <line num="13" type="method" name="getProfile" crap="2" count="0"/>
+        <line num="15" type="stmt" count="0"/>
+        <line num="17" type="method" name="getEdit" crap="1" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="21" type="method" name="postEdit" crap="1" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <metrics loc="33" ncloc="33" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="14" coveredelements="12"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Controllers/VideoController.php">
+        <class name="VideoController" namespace="App\Http\Controllers">
+          <metrics methods="11" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="26" elements="45" coveredelements="33"/>
+        </class>
+        <line num="13" type="method" name="__construct" crap="1" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="16" type="stmt" count="3"/>
+        <line num="23" type="method" name="index" crap="1" count="3"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="3"/>
+        <line num="34" type="method" name="create" crap="1" count="2"/>
+        <line num="36" type="stmt" count="2"/>
+        <line num="45" type="method" name="store" crap="3.07" count="2"/>
+        <line num="47" type="stmt" count="2"/>
+        <line num="48" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="71" type="method" name="show" crap="2" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="82" type="method" name="edit" crap="2" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="94" type="method" name="update" crap="2" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="106" type="method" name="destroy" crap="1" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="112" type="method" name="findById" crap="1" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="117" type="method" name="videoExist" crap="2" count="2"/>
+        <line num="119" type="stmt" count="2"/>
+        <line num="120" type="stmt" count="2"/>
+        <line num="121" type="stmt" count="2"/>
+        <line num="124" type="method" name="makeEmbedLink" crap="2" count="2"/>
+        <line num="126" type="stmt" count="2"/>
+        <line num="127" type="stmt" count="2"/>
+        <line num="129" type="stmt" count="2"/>
+        <metrics loc="131" ncloc="90" classes="1" methods="11" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="34" coveredstatements="26" elements="45" coveredelements="33"/>
+      </file>
+    </package>
+    <package name="App\Http">
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Kernel.php">
+        <class name="Kernel" namespace="App\Http">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="33" ncloc="23" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Middleware/Authenticate.php">
+        <class name="Authenticate" namespace="App\Http\Middleware">
+          <metrics methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="9" coveredelements="5"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="1" count="4"/>
+        <line num="25" type="stmt" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <line num="35" type="method" name="handle" crap="4.94" count="4"/>
+        <line num="37" type="stmt" count="4"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="39" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="0"/>
+        <line num="45" type="stmt" count="4"/>
+        <metrics loc="47" ncloc="29" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="4" elements="9" coveredelements="5"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Middleware/EncryptCookies.php">
+        <class name="EncryptCookies" namespace="App\Http\Middleware">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Middleware/RedirectIfAuthenticated.php">
+        <class name="RedirectIfAuthenticated" namespace="App\Http\Middleware">
+          <metrics methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
+        </class>
+        <line num="23" type="method" name="__construct" crap="1" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="35" type="method" name="handle" crap="2.15" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="41" type="stmt" count="1"/>
+        <metrics loc="43" ncloc="25" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="4" elements="7" coveredelements="5"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Middleware/VerifyCsrfToken.php">
+        <class name="VerifyCsrfToken" namespace="App\Http\Middleware">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Requests">
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Requests/Request.php">
+        <class name="Request" namespace="App\Http\Requests">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="10" ncloc="8" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="app\Http\Requests">
+      <file name="/home/vagrant/Projects/nairolearn/app/Http/Requests/VideoRequest.php">
+        <class name="VideoRequest" namespace="app\Http\Requests">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="14" type="method" name="authorize" crap="1" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="24" type="method" name="rules" crap="1" count="2"/>
+        <line num="27" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <metrics loc="33" ncloc="23" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+    </package>
+    <file name="/home/vagrant/Projects/nairolearn/app/Http/routes.php">
+      <line num="14" type="stmt" count="9"/>
+      <line num="15" type="stmt" count="9"/>
+      <line num="16" type="stmt" count="9"/>
+      <line num="17" type="stmt" count="9"/>
+      <line num="20" type="stmt" count="9"/>
+      <line num="21" type="stmt" count="9"/>
+      <line num="22" type="stmt" count="9"/>
+      <line num="25" type="stmt" count="9"/>
+      <line num="26" type="stmt" count="9"/>
+      <line num="28" type="stmt" count="9"/>
+      <line num="29" type="stmt" count="9"/>
+      <line num="30" type="stmt" count="9"/>
+      <line num="33" type="stmt" count="9"/>
+      <line num="34" type="stmt" count="9"/>
+      <line num="36" type="stmt" count="9"/>
+      <line num="38" type="stmt" count="9"/>
+      <line num="43" type="stmt" count="9"/>
+      <line num="44" type="stmt" count="9"/>
+      <line num="45" type="stmt" count="9"/>
+      <line num="46" type="stmt" count="9"/>
+      <line num="47" type="stmt" count="9"/>
+      <line num="48" type="stmt" count="9"/>
+      <line num="49" type="stmt" count="9"/>
+      <line num="50" type="stmt" count="9"/>
+      <line num="51" type="stmt" count="9"/>
+      <line num="52" type="stmt" count="9"/>
+      <line num="53" type="stmt" count="9"/>
+      <line num="54" type="stmt" count="9"/>
+      <line num="55" type="stmt" count="9"/>
+      <line num="56" type="stmt" count="9"/>
+      <metrics loc="56" ncloc="37" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="30" elements="30" coveredelements="30"/>
+    </file>
+    <package name="App\Jobs">
+      <file name="/home/vagrant/Projects/nairolearn/app/Jobs/Job.php">
+        <class name="Job" namespace="App\Jobs">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="21" ncloc="11" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="/home/vagrant/Projects/nairolearn/app/Providers/AppServiceProvider.php">
+        <class name="AppServiceProvider" namespace="App\Providers">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="14" type="method" name="boot" crap="1" count="9"/>
+        <line num="17" type="stmt" count="9"/>
+        <line num="24" type="method" name="register" crap="1" count="9"/>
+        <line num="27" type="stmt" count="9"/>
+        <metrics loc="28" ncloc="14" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Providers/AuthServiceProvider.php">
+        <class name="AuthServiceProvider" namespace="App\Providers">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="25" type="method" name="boot" crap="1" count="9"/>
+        <line num="27" type="stmt" count="9"/>
+        <line num="30" type="stmt" count="9"/>
+        <metrics loc="31" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Providers/EventServiceProvider.php">
+        <class name="EventServiceProvider" namespace="App\Providers">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="27" type="method" name="boot" crap="1" count="9"/>
+        <line num="29" type="stmt" count="9"/>
+        <line num="32" type="stmt" count="9"/>
+        <metrics loc="33" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Providers/RouteServiceProvider.php">
+        <class name="RouteServiceProvider" namespace="App\Providers">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        </class>
+        <line num="25" type="method" name="boot" crap="1" count="9"/>
+        <line num="29" type="stmt" count="9"/>
+        <line num="30" type="stmt" count="9"/>
+        <line num="40" type="method" name="anonymous function" crap="1" count="9"/>
+        <line num="41" type="stmt" count="9"/>
+        <line num="42" type="stmt" count="9"/>
+        <line num="43" type="stmt" count="9"/>
+        <metrics loc="44" ncloc="23" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+    </package>
+    <package name="App">
+      <file name="/home/vagrant/Projects/nairolearn/app/User.php">
+        <class name="User" namespace="App">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+        </class>
+        <line num="40" type="method" name="video" crap="2" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <metrics loc="44" ncloc="29" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </file>
+      <file name="/home/vagrant/Projects/nairolearn/app/Video.php">
+        <class name="Video" namespace="App">
+          <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="2"/>
+        </class>
+        <line num="20" type="method" name="user" crap="2" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <line num="25" type="method" name="scopePersonalize" crap="2.15" count="3"/>
+        <line num="27" type="stmt" count="3"/>
+        <line num="28" type="stmt" count="3"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="31" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="2"/>
+      </file>
+    </package>
+    <metrics files="21" loc="708" ncloc="488" classes="20" methods="31" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="116" coveredstatements="95" elements="147" coveredelements="115"/>
+  </project>
+</coverage>
