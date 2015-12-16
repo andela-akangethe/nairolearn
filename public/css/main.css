@@ -1,0 +1,57 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.category {
+  font-style: italic;
+  font-size: 20px;
+  background-color: black;
+  padding: 10%;
+}
+
+.categories {
+  border: 1px solid #DADADA;
+  padding-bottom: 10%;
+}
+
+.home-image{
+  padding: 10%;
+}
+
+#head {
+  font-weight: bolder;
+  color: black;
+  background: url( ../img/Homelearn.jpg) center no-repeat;
+}
+
+.site {
+  padding-top: 5%;
+}
+
+.tagline {
+  padding: 5%;
+}
+
+.social-link {
+  padding: 10%;
+}
+
+.avatar {
+  max-height: 55px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+}
+
+.user-profile {
+  padding-top: 5%;
+}
+
+.userProfile {
+  height: 250px;
+  width: 250px;
+}

@@ -1,0 +1,31 @@
+machine:
+  php:
+    version: 5.5.9
+deployment:
+  staging:
+    branch: develop:master
+    heroku:
+      appname: nairolearn
+## Customize dependencies
+dependencies:
+  override:
+    - mkdir -p build/logs
+    - composer install --dev --no-interaction
+    - php artisan migrate:install
+<<<<<<< HEAD
+    - php artisan migrate
+=======
+    - php artisan migrate:refresh
+    - php artisan db:seed
+>>>>>>> 19d387d... (fix) Added parameters in overide in the file circle.yml
+    - sudo apt-get install php5-xdebug
+    - sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini
+
+## Customize test commands
+test:
+  pre:
+    - php artisan migrate
+  override:
+    - phpunit -c phpunit.xml
+  post:
+    - php vendor/bin/coveralls
