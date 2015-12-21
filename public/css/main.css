@@ -1,5 +1,6 @@
 .navbar {
   margin-bottom: 0;
+  opacity: 0.9;
 }
 
 .category {
@@ -18,10 +19,23 @@
   padding: 10%;
 }
 
-#head {
-  font-weight: bolder;
-  color: black;
-  background: url( ../img/Homelearn.jpg) center no-repeat;
+li a {
+  color: white;
+}
+
+body {
+  background: url( ../img/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.background {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 40px auto;
+  background: rgba(22,22,22, 0.5);
+  width: 95%;
+  border-radius: 5px;
+  padding-bottom: 32px;
 }
 
 .site {

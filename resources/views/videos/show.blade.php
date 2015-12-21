@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
   <div class="row content">
-    <div class="col-md-8" style="padding_top:1%;">
+    <div class="col-md-8" style="padding-top:1%;">
       <div class="row content">
           <div class="col-lg-12">
               <h3>Titile- {{ $video->title }}</h3>
