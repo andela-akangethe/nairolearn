@@ -22,25 +22,25 @@ It is user-collated, and only gets populated with awesome content by awesome dev
 1. Create a mysql database with the name `nairolearn`
 2. `cd` into the nairolearn folder and run `php artisan:migrate` to set up the required tables for the app.
 
-## homestead
+## Homestead
 
 If you are using homestead, here are instructions to make the app available under `http://nairolearn.app`.
 
-1. edit your `~/.homestead/Homestead.yaml`:
-- in the section for `sites`, add
-```
-    map: nairolearn.app
-    to: /home/homestead/nairolearn
-```
+1. Edit your `~/.homestead/Homestead.yaml`:
+    - in the section for `sites`, add
+    ```
+        map: nairolearn.app
+        to: /home/homestead/nairolearn
+    ```
 
-2  in the section for `databases`, add
-```
-     nairolearn
-```
+2  In the section for `databases`, add
+    ```
+         nairolearn
+    ```
 
-3. run `vagrant provision` in your Homestead directory.
+3. Run `vagrant provision` in your Homestead directory.
 
-4. edit your `/etc/hosts` and add the following:
-```
-    192.168.10.10    nairolearn.app
-```
+4. Edit your `/etc/hosts` and add the following:
+    ```
+        192.168.10.10    nairolearn.app
+    ```

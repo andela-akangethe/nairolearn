@@ -1,25 +1,12 @@
 @extends('index')
 
 @section('content')
-<!-- Header -->
-<header id="head">
-    <div class="container text-center">
-        <div class="home-image">
-            <h1 class="lead"><strong>KNOWLEDGE KINGDOM</strong></h1>
-            <p class="tagline"><em>Welcome to a whole new world.</em></a></p>
-            @if (! Auth::guest())
-                <p><a class="btn btn-success btn-action btn-lg" href="/videos/create" role="button">ADD NEW VIDEO</a></p>
-            @endif
-        </div>
-    </div>
-</header>
-<!-- /Header -->
-<div class="container text-center site">
+<div class="container site">
   <div class="row content">
-    <div class="col-md-10">
+    <div class="col-md-12">
       <div class="row content videos">
           @foreach($videos as $video)
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-xs-12">
                   <p><strong>{{ $video->title }}</strong></p>
                   <a href="video/{{ $video->id }}" >
                       <div class="embed-responsive embed-responsive-16by9">
@@ -32,14 +19,7 @@
               </div>
           @endforeach
        </div>
-    </div>
-    <div class="col-md-2 categories">
-      <h3 class="category list-group-item active">Categories</h3>
-        <div class="top" style="margin-top: 10%;">
-          @foreach($videos as $video)
-                <p><a href="/category/{{ $video->category }}">{{ $video->category }}</a></p>
-          @endforeach
-        </div>
+       {!! $videos->render() !!}
     </div>
   </div>
 </div>

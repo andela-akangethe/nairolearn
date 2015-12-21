@@ -10,6 +10,11 @@ use App\Http\Controllers\Controller;
 
 class VideoController extends Controller
 {
+    /**
+     * Create a new authentication controller instance.
+     *
+     * @return void
+     */
     public function __construct()
     {
         $this->middleware('auth', ['except' => ['show']]);
@@ -58,7 +63,7 @@ class VideoController extends Controller
 
                 return redirect('videos');
             }
-            return 'Invalid Youtube video link! Go back to <a href="/videos/create">dashboard</a>';
+            return view('errors.invalidVideoLink');
         }
     }
 
@@ -109,17 +114,34 @@ class VideoController extends Controller
         return redirect('videos');
     }
 
+    /**
+     * Get video based on the id.
+     *
+     * @return video by id
+     */
+
     private function findById($id)
     {
         return Video::findOrFail($id);
     }
 
+    /**
+     * Confirm that the video does indeed exist.
+     *
+     * @return false if the video doesn't exist or true if it does
+     */
     protected function videoExist($videoID)
     {
         $theURL = "http://www.youtube.com/oembed?url=http://www.youtube.com/watch?v=$videoID&format=json";
         $headers = get_headers($theURL);
         return (substr($headers[0], 9, 3) !== "404") ? true : false;
     }
+
+    /**
+     * Convert the link to and embeded link
+     *
+     * @return embedded link
+     */
 
     protected function makeEmbedLink($link)
     {
